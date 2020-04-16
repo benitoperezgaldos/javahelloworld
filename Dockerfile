@@ -9,3 +9,4 @@ EXPOSE 80 8080
 VOLUME /data/myvol
 #ENTRYPOINT ["java", "HelloWolrd"]
 #Edit
+#Test
