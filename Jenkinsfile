@@ -12,9 +12,19 @@ pipeline {
                 echo 'Testing.....'
             }
         }
+        stage('Performace') {
+            steps {
+                echo 'Performance Testing.....'
+            }
+        }
+        stage('Staging') {
+            steps {
+                echo 'Performance Testing.....'
+            }
+        }
         stage('Deploy') {
             steps {
-                echo 'Deploying....'
+                echo 'URL_2'
             }
         }
     }
