@@ -12,6 +12,11 @@ pipeline {
                 echo 'Testing.....'
             }
         }
+        stage('Performace') {
+            steps {
+                echo 'Performance Testing.....'
+            }
+        }
         stage('Deploy') {
             steps {
                 echo 'URL_2'
